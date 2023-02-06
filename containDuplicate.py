@@ -2,6 +2,9 @@
 # 1: Create hashset so that search time is O(1)
 # 2: Run through nums list to see if the number already exist in our hashset
 
+# Worst case Time Complexity is O(N)
+# Space Complexity is O(1)
+
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         hashset = set()
